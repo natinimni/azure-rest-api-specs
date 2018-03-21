@@ -97,7 +97,7 @@
         "x-ms-examples": {
           "SearchServiceDeleteDataSource": { "$ref": "./examples/SearchServiceDeleteDataSource.json" }
         },
-        "description": "Deletes an Azure Search datasource.",
+        "description": "Deletes an Azure Search data source.",
         "externalDocs": {
           "url": "https://docs.microsoft.com/rest/api/searchservice/Delete-Data-Source"
         },
