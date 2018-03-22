@@ -4032,12 +4032,9 @@
     "ServiceLimits": {
       "properties": {
         "maxFieldsPerIndex": {
-          "type": "object",
-          "additionalProperties": {
-            "type": "number",
-            "format": "int32",
-            "x-nullable": true
-          },
+          "type": "number",
+          "format": "int32",
+          "x-nullable": true,
           "description": "The maximal allowed fields per index."
         },
         "maxIndexerRunTime": {
@@ -4046,39 +4043,27 @@
           "description": "The maximal indexer execution runtime allowed."
         },
         "maxFileExtractionSize": {
-          "type": "object",
-          "additionalProperties": {
-            "type": "number",
-            "format": "int64",
-            "x-nullable": true
-          },
+          "type": "number",
+          "format": "int64",
+          "x-nullable": true,
           "description": "The maximal file extraction size in bytes."
         },
         "maxFileContentCharactersToExtract": {
-          "type": "object",
-          "additionalProperties": {
-            "type": "number",
-            "format": "int32",
-            "x-nullable": true
-          },
+          "type": "number",
+          "format": "int32",
+          "x-nullable": true,
           "description": "The maximal number of file content characters to extract."
         },
         "maxFieldNestingDepthPerIndex": {
-          "type": "object",
-          "additionalProperties": {
-            "type": "number",
-            "format": "int32",
-            "x-nullable": true
-          },
+          "type": "number",
+          "format": "int32",
+          "x-nullable": true,
           "description": "The maximal nesting depth of complex type fields per index."
         },
         "maxComplexCollectionFieldsPerIndex": {
-          "type": "object",
-          "additionalProperties": {
-            "type": "number",
-            "format": "int32",
-            "x-nullable": true
-          },
+          "type": "number",
+          "format": "int32",
+          "x-nullable": true,
           "description": "The maximal allowed number of complex type collection fields per index."
         }
       },
@@ -4087,21 +4072,15 @@
     "ResourceCounter": {
       "properties": {
         "usage": {
-          "type": "object",
-          "additionalProperties": {
-            "type": "number",
-            "format": "int64",
-            "x-nullable": true
-          },
+          "type": "number",
+          "format": "int64",
+          "x-nullable": true,
           "description": "The resource usage amount."
         },
         "quota": {
-          "type": "object",
-          "additionalProperties": {
-            "type": "number",
-            "format": "int64",
-            "x-nullable": true
-          },
+          "type": "number",
+          "format": "int64",
+          "x-nullable": true,
           "description": "The resource amount quota."
         }
       },
