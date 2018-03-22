@@ -27,6 +27,35 @@
     "application/json"
   ],
   "paths": {
+    "/servicestats": {
+      "get": {
+        "tags": [
+          "Service"
+        ],
+        "operationId": "ServiceStats",
+        "x-ms-examples": {
+          "SearchServiceServiceStats": { "$ref": "./examples/SearchServiceServiceStats.json" }
+        },
+        "description": "Gets service level statistics for an Azure Search service.",
+        "parameters": [
+          {
+            "$ref": "#/parameters/ClientRequestIdParameter"
+          },
+          {
+            "$ref": "#/parameters/ApiVersionParameter"
+          }
+        ],
+        "x-ms-request-id": "request-id",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/ServiceStatistics"
+            }
+          }
+        }
+      }
+    },
     "/datasources('{dataSourceName}')": {
       "put": {
         "tags": [
@@ -3957,6 +3986,126 @@
         }
       },
       "description": "Response from a List SynonymMaps request. If successful, it includes the full definitions of all synonym maps."
+    },
+    "ServiceStatistics": {
+      "properties": {
+        "counters": {
+          "$ref": "#/definitions/ServiceCounters",
+          "description": "Service level resource counters"
+        },
+        "limits": {
+          "$ref": "#/definitions/ServiceLimits",
+          "description": "Service level general limits"
+        }
+      },
+      "description": "Response from a get service statistics request. If successful, it includes service level counters and limits."
+    },
+    "ServiceCounters": {
+      "properties": {
+        "documentCount": {
+          "$ref": "#/definitions/ResourceCounter",
+          "description": "Total number of documents."
+        },
+        "indexesCount": {
+          "$ref": "#/definitions/ResourceCounter",
+          "description": "Total number of indexes."
+        },
+        "indexersCount": {
+          "$ref": "#/definitions/ResourceCounter",
+          "description": "Total number of indexers."
+        },
+        "dataSourcesCount": {
+          "$ref": "#/definitions/ResourceCounter",
+          "description": "Total number of data sources."
+        },
+        "storageSize": {
+          "$ref": "#/definitions/ResourceCounter",
+          "description": "Total size of used storage in bytes"
+        },
+        "synonymMaps": {
+          "$ref": "#/definitions/ResourceCounter",
+          "description": "Total number of synonym maps."
+        },
+      },
+      "description": "Represents a service level resource counters and quotas."
+    },
+    "ServiceLimits": {
+      "properties": {
+        "maxFieldsPerIndex": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "format": "int32",
+            "x-nullable": true
+          },
+          "description": "The maximal allowed fields per index."
+        },
+        "maxIndexerRunTime": {
+          "type": "string",
+          "format": "duration",
+          "description": "The maximal indexer execution runtime allowed."
+        },
+        "maxFileExtractionSize": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "format": "int64",
+            "x-nullable": true
+          },
+          "description": "The maximal file extraction size in bytes."
+        },
+        "maxFileContentCharactersToExtract": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "format": "int32",
+            "x-nullable": true
+          },
+          "description": "The maximal number of file content characters to extract."
+        },
+        "maxFieldNestingDepthPerIndex": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "format": "int32",
+            "x-nullable": true
+          },
+          "description": "The maximal nesting depth of complex type fields per index."
+        },
+        "maxComplexCollectionFieldsPerIndex": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "format": "int32",
+            "x-nullable": true
+          },
+          "description": "The maximal allowed number of complex type collection fields per index."
+        }
+      },
+      "description": "Represents various service level limits."
+    },
+    "ResourceCounter": {
+      "properties": {
+        "usage": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "format": "int64",
+            "x-nullable": true
+          },
+          "description": "The resource usage amount."
+        },
+        "quota": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "format": "int64",
+            "x-nullable": true
+          },
+          "description": "The resource amount quota."
+        }
+      },
+      "description": "Represents a resource's usage and quota."
     }
   },
   "parameters": {
