@@ -10,7 +10,15 @@
   },
   "x-ms-parameterized-host": {
     "hostTemplate": "{searchServiceName}.{searchDnsSuffix}",
-    "useSchemePrefix": false
+    "useSchemePrefix": false,
+    "parameters": [
+-     { 
+-       "$ref": "#/parameters/SearchServiceNameParameter" 
+-     }, 
+-     { 
+-       "$ref": "#/parameters/SearchDnsSuffixParameter" 
+-     } 
+-   ] 
   },
   "consumes": [
     "application/json"
