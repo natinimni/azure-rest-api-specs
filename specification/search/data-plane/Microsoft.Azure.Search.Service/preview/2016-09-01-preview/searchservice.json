@@ -27,35 +27,6 @@
     "application/json"
   ],
   "paths": {
-    "/servicestats": {
-      "get": {
-        "tags": [
-          "ServiceLevel"
-        ],
-        "operationId": "Service_GetServiceStatistics",
-        "x-ms-examples": {
-          "SearchServiceGetServiceStatistics": { "$ref": "./examples/SearchServiceGetServiceStatistics.json" }
-        },
-        "description": "Gets service level statistics for an Azure Search service.",
-        "parameters": [
-          {
-            "$ref": "#/parameters/ClientRequestIdParameter"
-          },
-          {
-            "$ref": "#/parameters/ApiVersionParameter"
-          }
-        ],
-        "x-ms-request-id": "request-id",
-        "responses": {
-          "200": {
-            "description": "",
-            "schema": {
-              "$ref": "#/definitions/ServiceStatistics"
-            }
-          }
-        }
-      }
-    },
     "/datasources('{dataSourceName}')": {
       "put": {
         "tags": [
@@ -1123,7 +1094,36 @@
           }
         }
       }
-    }
+    },
+    "/servicestats": {
+      "get": {
+        "tags": [
+          "ServiceStatistics"
+        ],
+        "operationId": "GetServiceStatistics",
+        "x-ms-examples": {
+          "SearchServiceGetServiceStatistics": { "$ref": "./examples/SearchServiceGetServiceStatistics.json" }
+        },
+        "description": "Gets service level statistics for an Azure Search service.",
+        "parameters": [
+          {
+            "$ref": "#/parameters/ClientRequestIdParameter"
+          },
+          {
+            "$ref": "#/parameters/ApiVersionParameter"
+          }
+        ],
+        "x-ms-request-id": "request-id",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/ServiceStatistics"
+            }
+          }
+        }
+      }
+    },
   },
   "definitions": {
     "AnalyzeRequest": {
