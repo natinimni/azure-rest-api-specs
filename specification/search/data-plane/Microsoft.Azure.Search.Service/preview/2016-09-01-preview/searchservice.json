@@ -30,9 +30,9 @@
     "/servicestats": {
       "get": {
         "tags": [
-          "Service"
+          "ServiceLevel"
         ],
-        "operationId": "GetServiceStatistics",
+        "operationId": "Service_GetServiceStatistics",
         "x-ms-examples": {
           "SearchServiceGetServiceStatistics": { "$ref": "./examples/SearchServiceGetServiceStatistics.json" }
         },
