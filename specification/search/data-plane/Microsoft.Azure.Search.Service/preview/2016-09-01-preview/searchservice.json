@@ -10,15 +10,7 @@
   },
   "x-ms-parameterized-host": {
     "hostTemplate": "https://{searchServiceName}.{searchDnsSuffix}",
-    "useSchemePrefix": false,
-    "parameters": [
-      {
-        "$ref": "#/parameters/SearchServiceNameParameter"
-      },
-      {
-        "$ref": "#/parameters/SearchDnsSuffixParameter"
-      }
-    ]
+    "useSchemePrefix": false
   },
   "consumes": [
     "application/json"
@@ -71,6 +63,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -120,6 +118,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -157,6 +161,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -189,6 +199,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -228,6 +244,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -267,6 +289,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -303,6 +331,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -357,6 +391,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -406,6 +446,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -443,6 +489,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -475,6 +527,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -514,6 +572,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -553,6 +617,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -610,6 +680,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -659,6 +735,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -696,6 +778,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -728,6 +816,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -767,6 +861,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -808,6 +908,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -845,6 +951,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -909,6 +1021,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -1034,6 +1152,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -1082,6 +1206,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -1111,6 +1241,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -4147,8 +4283,7 @@
       "required": true,
       "type": "string",
       "x-ms-skip-url-encoding": true,
-      "description": "The name of the Azure Search service.",
-      "x-ms-parameter-location": "client"
+      "description": "The name of the Azure Search service."
     },
     "SearchDnsSuffixParameter": {
       "name": "searchDnsSuffix",
@@ -4157,8 +4292,7 @@
       "type": "string",
       "default": "search.windows.net",
       "x-ms-skip-url-encoding": true,
-      "description": "The DNS suffix of the Azure Search service. The default is search.windows.net.",
-      "x-ms-parameter-location": "client"
+      "description": "The DNS suffix of the Azure Search service. The default is search.windows.net."
     }
   }
 }
