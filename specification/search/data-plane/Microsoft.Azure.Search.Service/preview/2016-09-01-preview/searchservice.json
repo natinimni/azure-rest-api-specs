@@ -10,15 +10,7 @@
   },
   "x-ms-parameterized-host": {
     "hostTemplate": "https://{searchServiceName}.{searchDnsSuffix}",
-    "useSchemePrefix": false,
-    "parameters": [
-      {
-        "$ref": "#/parameters/SearchServiceNameParameter"
-      },
-      {
-        "$ref": "#/parameters/SearchDnsSuffixParameter"
-      }
-    ]
+    "useSchemePrefix": false
   },
   "consumes": [
     "application/json"
@@ -41,6 +33,12 @@
           "url": "https://docs.microsoft.com/rest/api/searchservice/Update-Data-Source"
         },
         "parameters": [
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
           {
             "name": "dataSourceName",
             "in": "path",
@@ -103,6 +101,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "dataSourceName",
             "in": "path",
             "required": true,
@@ -146,6 +150,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "dataSourceName",
             "in": "path",
             "required": true,
@@ -185,6 +195,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "$ref": "#/parameters/ClientRequestIdParameter"
           },
           {
@@ -214,6 +230,12 @@
           "url": "https://docs.microsoft.com/rest/api/searchservice/Create-Data-Source"
         },
         "parameters": [
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
           {
             "name": "dataSource",
             "in": "body",
@@ -256,6 +278,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "indexerName",
             "in": "path",
             "required": true,
@@ -292,6 +320,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "indexerName",
             "in": "path",
             "required": true,
@@ -327,6 +361,12 @@
           "url": "https://docs.microsoft.com/rest/api/searchservice/Create-Indexer"
         },
         "parameters": [
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
           {
             "name": "indexerName",
             "in": "path",
@@ -389,6 +429,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "indexerName",
             "in": "path",
             "required": true,
@@ -432,6 +478,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "indexerName",
             "in": "path",
             "required": true,
@@ -471,6 +523,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "$ref": "#/parameters/ClientRequestIdParameter"
           },
           {
@@ -500,6 +558,12 @@
           "url": "https://docs.microsoft.com/rest/api/searchservice/Create-Indexer"
         },
         "parameters": [
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
           {
             "name": "indexer",
             "in": "body",
@@ -542,6 +606,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "indexerName",
             "in": "path",
             "required": true,
@@ -580,6 +650,12 @@
           "url": "https://docs.microsoft.com/rest/api/searchservice/Update-Synonym-Map"
         },
         "parameters": [
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
           {
             "name": "synonymMapName",
             "in": "path",
@@ -642,6 +718,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "synonymMapName",
             "in": "path",
             "required": true,
@@ -685,6 +767,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "synonymMapName",
             "in": "path",
             "required": true,
@@ -724,6 +812,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "$ref": "#/parameters/ClientRequestIdParameter"
           },
           {
@@ -753,6 +847,12 @@
           "url": "https://docs.microsoft.com/rest/api/searchservice/Create-Synonym-Map"
         },
         "parameters": [
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
           {
             "name": "synonymMap",
             "in": "body",
@@ -795,6 +895,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "index",
             "in": "body",
             "required": true,
@@ -834,6 +940,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "$select",
             "in": "query",
             "required": false,
@@ -872,6 +984,12 @@
           "url": "https://docs.microsoft.com/rest/api/searchservice/Update-Index"
         },
         "parameters": [
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
           {
             "name": "indexName",
             "in": "path",
@@ -941,6 +1059,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "indexName",
             "in": "path",
             "required": true,
@@ -984,6 +1108,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "indexName",
             "in": "path",
             "required": true,
@@ -1022,6 +1152,12 @@
           "url": "https://docs.microsoft.com/rest/api/searchservice/Get-Index-Statistics"
         },
         "parameters": [
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
           {
             "name": "indexName",
             "in": "path",
@@ -1062,6 +1198,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "indexName",
             "in": "path",
             "required": true,
@@ -1090,6 +1232,41 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/AnalyzeResult"
+            }
+          }
+        }
+      }
+    },
+    "/servicestats": {
+      "get": {
+        "tags": [
+          "Service"
+        ],
+        "operationId": "GetServiceStatistics",
+        "x-ms-examples": {
+          "SearchServiceGetServiceStatistics": { "$ref": "./examples/SearchServiceGetServiceStatistics.json" }
+        },
+        "description": "Gets service level statistics for an Azure Search service.",
+        "parameters": [
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
+            "$ref": "#/parameters/ClientRequestIdParameter"
+          },
+          {
+            "$ref": "#/parameters/ApiVersionParameter"
+          }
+        ],
+        "x-ms-request-id": "request-id",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/ServiceStatistics"
             }
           }
         }
@@ -3957,6 +4134,111 @@
         }
       },
       "description": "Response from a List SynonymMaps request. If successful, it includes the full definitions of all synonym maps."
+    },
+    "ServiceStatistics": {
+      "properties": {
+        "counters": {
+          "$ref": "#/definitions/ServiceCounters",
+          "description": "Service level resource counters."
+        },
+        "limits": {
+          "$ref": "#/definitions/ServiceLimits",
+          "description": "Service level general limits."
+        }
+      },
+      "description": "Response from a get service statistics request. If successful, it includes service level counters and limits."
+    },
+    "ServiceCounters": {
+      "properties": {
+        "documentCount": {
+          "x-ms-client-name": "documentCounter",
+          "$ref": "#/definitions/ResourceCounter",
+          "description": "Total number of documents across all indexes in the service."
+        },
+        "indexesCount": {
+          "x-ms-client-name": "indexCounter",
+          "$ref": "#/definitions/ResourceCounter",
+          "description": "Total number of indexes."
+        },
+        "indexersCount": {
+          "x-ms-client-name": "indexerCounter",
+          "$ref": "#/definitions/ResourceCounter",
+          "description": "Total number of indexers."
+        },
+        "dataSourcesCount": {
+          "x-ms-client-name": "dataSourceCounter",
+          "$ref": "#/definitions/ResourceCounter",
+          "description": "Total number of data sources."
+        },
+        "storageSize": {
+          "x-ms-client-name": "storageSizeCounter",
+          "$ref": "#/definitions/ResourceCounter",
+          "description": "Total size of used storage in bytes."
+        },
+        "synonymMaps": {
+          "x-ms-client-name": "synonymMapCounter",
+          "$ref": "#/definitions/ResourceCounter",
+          "description": "Total number of synonym maps."
+        },
+      },
+      "description": "Represents a service level resource counters and quotas."
+    },
+    "ServiceLimits": {
+      "properties": {
+        "maxFieldsPerIndex": {
+          "type": "integer",
+          "format": "int32",
+          "x-nullable": true,
+          "description": "The maximum allowed fields per index."
+        },
+        "maxIndexerRunTime": {
+          "type": "string",
+          "format": "duration",
+          "description": "The maximum time an indexer will run in a single execution. In the next run, indexing will resume at the point where it stopped."
+        },
+        "maxFileExtractionSize": {
+          "type": "integer",
+          "format": "int64",
+          "x-nullable": true,
+          "description": "When using a blob indexer, if the size in bytes of a blob's content is larger than this size, it results in an error."
+        },
+        "maxFileContentCharactersToExtract": {
+          "type": "integer",
+          "format": "int32",
+          "x-nullable": true,
+          "description": "The maximum number of characters extracted from a blob when using a blob indexer. If a blob has more content, it is not indexed and a warning is added to the indexer execution result." 
+        },
+        "maxFieldNestingDepthPerIndex": {
+          "type": "integer",
+          "format": "int32",
+          "x-nullable": true,
+          "description": "The maximum depth which you can nest sub-fields in an index, including the top-level complex field. For example, a/b/c has a nesting depth of 3."
+        },
+        "maxComplexCollectionFieldsPerIndex": {
+          "type": "integer",
+          "format": "int32",
+          "x-nullable": true,
+          "description": "The maximum number of fields of type Collection(Edm.ComplexType) allowed in an index."
+        }
+      },
+      "description": "Represents various service level limits."
+    },
+    "ResourceCounter": {
+      "properties": {
+        "usage": {
+          "type": "integer",
+          "format": "int64",
+          "x-nullable": true,
+          "description": "The resource usage amount."
+        },
+        "quota": {
+          "type": "integer",
+          "format": "int64",
+          "x-nullable": true,
+          "description": "The resource amount quota."
+        }
+      },
+      "description": "Represents a resource's usage and quota."
     }
   },
   "parameters": {
