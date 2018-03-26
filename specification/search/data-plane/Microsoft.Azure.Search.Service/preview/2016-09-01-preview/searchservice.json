@@ -34,6 +34,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "dataSourceName",
             "in": "path",
             "required": true,
@@ -63,12 +69,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -101,6 +101,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "dataSourceName",
             "in": "path",
             "required": true,
@@ -118,12 +124,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -150,6 +150,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "dataSourceName",
             "in": "path",
             "required": true,
@@ -161,12 +167,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -195,16 +195,16 @@
         },
         "parameters": [
           {
-            "$ref": "#/parameters/ClientRequestIdParameter"
-          },
-          {
-            "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
             "$ref": "#/parameters/SearchServiceNameParameter"
           },
           {
             "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
+            "$ref": "#/parameters/ClientRequestIdParameter"
+          },
+          {
+            "$ref": "#/parameters/ApiVersionParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -231,6 +231,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "dataSource",
             "in": "body",
             "required": true,
@@ -244,12 +250,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -278,6 +278,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "indexerName",
             "in": "path",
             "required": true,
@@ -289,12 +295,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -320,6 +320,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "indexerName",
             "in": "path",
             "required": true,
@@ -331,12 +337,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -361,6 +361,12 @@
           "url": "https://docs.microsoft.com/rest/api/searchservice/Create-Indexer"
         },
         "parameters": [
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
           {
             "name": "indexerName",
             "in": "path",
@@ -391,12 +397,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -429,6 +429,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "indexerName",
             "in": "path",
             "required": true,
@@ -446,12 +452,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -478,6 +478,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "indexerName",
             "in": "path",
             "required": true,
@@ -489,12 +495,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -523,16 +523,16 @@
         },
         "parameters": [
           {
-            "$ref": "#/parameters/ClientRequestIdParameter"
-          },
-          {
-            "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
             "$ref": "#/parameters/SearchServiceNameParameter"
           },
           {
             "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
+            "$ref": "#/parameters/ClientRequestIdParameter"
+          },
+          {
+            "$ref": "#/parameters/ApiVersionParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -559,6 +559,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "indexer",
             "in": "body",
             "required": true,
@@ -572,12 +578,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -606,6 +606,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "indexerName",
             "in": "path",
             "required": true,
@@ -617,12 +623,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -650,6 +650,12 @@
           "url": "https://docs.microsoft.com/rest/api/searchservice/Update-Synonym-Map"
         },
         "parameters": [
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
           {
             "name": "synonymMapName",
             "in": "path",
@@ -680,12 +686,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -718,6 +718,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "synonymMapName",
             "in": "path",
             "required": true,
@@ -735,12 +741,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -767,6 +767,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "synonymMapName",
             "in": "path",
             "required": true,
@@ -778,12 +784,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -812,16 +812,16 @@
         },
         "parameters": [
           {
-            "$ref": "#/parameters/ClientRequestIdParameter"
-          },
-          {
-            "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
             "$ref": "#/parameters/SearchServiceNameParameter"
           },
           {
             "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
+            "$ref": "#/parameters/ClientRequestIdParameter"
+          },
+          {
+            "$ref": "#/parameters/ApiVersionParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -848,6 +848,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "synonymMap",
             "in": "body",
             "required": true,
@@ -861,12 +867,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -895,6 +895,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "index",
             "in": "body",
             "required": true,
@@ -908,12 +914,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -940,6 +940,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "$select",
             "in": "query",
             "required": false,
@@ -951,12 +957,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -984,6 +984,12 @@
           "url": "https://docs.microsoft.com/rest/api/searchservice/Update-Index"
         },
         "parameters": [
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
           {
             "name": "indexName",
             "in": "path",
@@ -1021,12 +1027,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -1058,6 +1058,12 @@
           "url": "https://docs.microsoft.com/rest/api/searchservice/Delete-Index"
         },
         "parameters": [
+          {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
           {
             "name": "indexName",
             "in": "path",
@@ -1102,6 +1108,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "indexName",
             "in": "path",
             "required": true,
@@ -1141,6 +1153,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "indexName",
             "in": "path",
             "required": true,
@@ -1152,12 +1170,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -1186,6 +1198,12 @@
         },
         "parameters": [
           {
+            "$ref": "#/parameters/SearchServiceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
             "name": "indexName",
             "in": "path",
             "required": true,
@@ -1206,12 +1224,6 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchServiceNameParameter"
-          },
-          {
-            "$ref": "#/parameters/SearchDnsSuffixParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -1237,16 +1249,16 @@
         "description": "Gets service level statistics for an Azure Search service.",
         "parameters": [
           {
-            "$ref": "#/parameters/ClientRequestIdParameter"
-          },
-          {
-            "$ref": "#/parameters/ApiVersionParameter"
-          },
-          {
             "$ref": "#/parameters/SearchServiceNameParameter"
           },
           {
             "$ref": "#/parameters/SearchDnsSuffixParameter"
+          },
+          {
+            "$ref": "#/parameters/ClientRequestIdParameter"
+          },
+          {
+            "$ref": "#/parameters/ApiVersionParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -1259,7 +1271,7 @@
           }
         }
       }
-    },
+    }
   },
   "definitions": {
     "AnalyzeRequest": {
