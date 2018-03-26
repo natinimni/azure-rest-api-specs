@@ -9,7 +9,7 @@
     }
   },
   "x-ms-parameterized-host": {
-    "hostTemplate": "https://{searchServiceName}.{searchDnsSuffix}",
+    "hostTemplate": "{searchServiceName}.{searchDnsSuffix}",
     "useSchemePrefix": false
   },
   "consumes": [
