@@ -9,16 +9,16 @@
     }
   },
   "x-ms-parameterized-host": {
-    "hostTemplate": "{searchServiceName}.{searchDnsSuffix}",
+    "hostTemplate": "https://{searchServiceName}.{searchDnsSuffix}",
     "useSchemePrefix": false,
     "parameters": [
--     { 
--       "$ref": "#/parameters/SearchServiceNameParameter" 
--     }, 
--     { 
--       "$ref": "#/parameters/SearchDnsSuffixParameter" 
--     } 
--   ] 
+      {
+        "$ref": "#/parameters/SearchServiceNameParameter"
+      },
+      {
+        "$ref": "#/parameters/SearchDnsSuffixParameter"
+      }
+    ]
   },
   "consumes": [
     "application/json"
