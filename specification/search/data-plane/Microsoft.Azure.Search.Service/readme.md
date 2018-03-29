@@ -94,6 +94,7 @@ directive:
         
         return $.
           replace(/this.SearchServiceName/g,"this.Client.SearchServiceName").
-          replace(/this.SearchDnsSuffix/g,"this.Client.SearchDnsSuffix");
+          replace(/this.SearchDnsSuffix/g,"this.Client.SearchDnsSuffix").
+          replace(/Client.SearchServiceName/g,"this.Client.SearchServiceName");
       return $;  
 ```
