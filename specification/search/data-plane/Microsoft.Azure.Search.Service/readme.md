@@ -93,7 +93,7 @@ directive:
         $.includes("class IndexesOperations") ||  $.includes("class SynonymMapsOperations") ) 
         
         return $.
-          replace(/this.SearchServiceName/g,"Client.SearchServiceName").
-          replace(/this.SearchDnsSuffix/g,"Client.SearchDnsSuffix");
+          replace(/this.SearchServiceName/g,"this.Client.SearchServiceName").
+          replace(/this.SearchDnsSuffix/g,"this.Client.SearchDnsSuffix");
       return $;  
 ```
