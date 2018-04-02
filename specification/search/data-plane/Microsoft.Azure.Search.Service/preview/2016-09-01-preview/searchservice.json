@@ -4081,7 +4081,6 @@
         "usage": {
           "type": "integer",
           "format": "int64",
-          "x-nullable": true,
           "description": "The resource usage amount."
         },
         "quota": {
